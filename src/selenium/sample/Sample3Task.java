@@ -23,7 +23,6 @@ public class Sample3Task {
         System.setProperty("webdriver.chrome.driver", libWithDriversLocation + "chromedriver.exe");
         // declaration above:
         driver = new ChromeDriver();
-
         //open page:
         driver.get("https://kristinek.github.io/site/examples/locators");
     }
